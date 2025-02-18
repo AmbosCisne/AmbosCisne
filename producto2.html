@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="producto2.css">
+</head>
+<body>
+    <div class="contenedor">
+        <img src="WhatsApp Image 2025-01-28 at 14.19.44.jpeg" alt="Ambos 2" width="600px" height="700px">    
+    </div>
+    <h1>Detalles del Producto: Ambos 2</h1>
+    <p>Precio: $100</p>
+    <p>Talles disponibles: M, L, XL</p>
+    <label for="quantity">Cantidad:</label>
+    <input type="number" id="quantity" min="1" value="1">
+    <button onclick="addToCart('Ambos 2', 100)">Añadir al carrito</button>
+    <br><br>
+    <a href="index.html">Volver a la tienda</a>
+    <script>
+        function addToCart(productName, price) {
+            alert(`${productName} ha sido añadido al carrito por $${price}.`);
+        }
+    </script>
+</body>
+</html>
